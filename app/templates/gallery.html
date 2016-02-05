@@ -1,14 +1,10 @@
 <h1>svg-gallery</h1>
-<hr/>
-<div *ngFor="#cat of categories">
-  <h2>{{cat.category}}</h2>
-    <ul>
-      <li *ngFor="#url of cat.images">
-        <a [href]="url">
-          <div class="svg-thumb">
-            <img [src]="url"/>
-          </div>
-        </a>
-      </li>
-    </ul>
-</div >
+
+<tabs>
+  <tab *ngFor="#cat of categories" [tab-title]="cat.category">
+    <a class="svg-thumb" [href]="img.url" *ngFor="#img of cat.images">
+       <span class="name">{{img.name}}</span>
+       <img [src]="img.url"/>
+    </a>
+  </tab>
+</tabs>

@@ -1,2 +1,12 @@
-.svg-thumb { width: 100px; height: 60px; display: inline-block; position:relative; border: solid blue 1px; }
-.svg-thumb img { max-width: 100%; max-height: 100%; }
+.svg-thumb {
+    width: 200px; height: 120px; position:relative;
+    display: inline-block; text-align:center; vertical-align:middle;
+    border: solid blue 1px; background: #ccc;
+    margin: 5px; padding:0; }
+.svg-thumb img { max-width: 100%; max-height: 100%; background:white; margin:auto; }
+.svg-thumb .name {
+    position: absolute; left:0; top:0; padding:2px;
+    font-size:smaller; font-family: Calibri, verdana, arial, sans-serif;
+    background: black; color:white; display:inline-block; }
+.svg-thumb:hover .name { background: blue; }
+.pane { padding: 1em; }

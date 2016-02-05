@@ -1,19 +1,15 @@
-{
-  "categories": [
-    {
-      "category": "w3c dev samples",
+{ "categories": [
+    { "category": "w3c dev samples",
       "images": [
-        "https://dev.w3.org/SVG/tools/svgweb/samples/svg-files/w3c.svg",
-        "https://dev.w3.org/SVG/tools/svgweb/samples/svg-files/smile.svg",
-        "https://dev.w3.org/SVG/tools/svgweb/samples/svg-files/android.svg"
-      ]
-    },
-    {
-      "category": "more w3c samples",
+        { "url": "https://dev.w3.org/SVG/tools/svgweb/samples/svg-files/w3c.svg",
+          "name": "w3c" },
+        { "url": "https://dev.w3.org/SVG/tools/svgweb/samples/svg-files/smile.svg",
+          "name": "smile" },
+        { "url": "https://dev.w3.org/SVG/tools/svgweb/samples/svg-files/android.svg",
+          "name": "android" }]},
+    { "category": "more w3c samples",
       "images": [
-        "https://dev.w3.org/SVG/tools/svgweb/samples/svg-files/gallardo.svg",
-        "https://dev.w3.org/SVG/tools/svgweb/samples/svg-files/yinyang.svg"
-      ]
-    }
-  ]
-}
+        { "url": "https://dev.w3.org/SVG/tools/svgweb/samples/svg-files/gallardo.svg",
+          "name": "smile" },
+        { "url": "https://dev.w3.org/SVG/tools/svgweb/samples/svg-files/yinyang.svg",
+          "name": "smile" }]}]}
