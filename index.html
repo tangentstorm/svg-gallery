@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -13,22 +13,26 @@
   <script src="https://code.angularjs.org/tools/system.js"></script>
   <script src="https://code.angularjs.org/tools/typescript.js"></script>
   <script src="https://code.angularjs.org/2.0.0-beta.0/Rx.js"></script>
-  <script src="https://code.angularjs.org/2.0.0-beta.0/angular2.dev.js"></script>
+
+  <script src="node_modules/angular2/bundles/angular2.dev.js"></script>
+  <script src="node_modules/angular2/bundles/http.dev.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="app/style.css">
+
+</head>
+<body>
+
+  <my-app>(app goes here)</my-app>
 
   <script>
     System.config({
       transpiler: 'typescript',
       typescriptOptions: { emitDecoratorMetadata: true },
-      packages: {'app': {defaultExtension: 'ts'}}
+      packages: {'app': { defaultExtension: 'ts'}}
     });
     System.import('app/boot')
           .then(null, console.error.bind(console));
   </script>
-
-</head>
-<body>
-
-<my-app>(app goes here)</my-app>
 
 </body>
 </html>

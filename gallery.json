@@ -1,0 +1,19 @@
+{
+  "categories": [
+    {
+      "category": "w3c dev samples",
+      "images": [
+        "https://dev.w3.org/SVG/tools/svgweb/samples/svg-files/w3c.svg",
+        "https://dev.w3.org/SVG/tools/svgweb/samples/svg-files/smile.svg",
+        "https://dev.w3.org/SVG/tools/svgweb/samples/svg-files/android.svg"
+      ]
+    },
+    {
+      "category": "more w3c samples",
+      "images": [
+        "https://dev.w3.org/SVG/tools/svgweb/samples/svg-files/gallardo.svg",
+        "https://dev.w3.org/SVG/tools/svgweb/samples/svg-files/yinyang.svg"
+      ]
+    }
+  ]
+}

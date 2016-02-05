@@ -1,0 +1,2 @@
+.svg-thumb { width: 100px; height: 60px; display: inline-block; position:relative; border: solid blue 1px; }
+.svg-thumb img { max-width: 100%; max-height: 100%; }
